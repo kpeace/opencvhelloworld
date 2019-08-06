@@ -1,0 +1,106 @@
+{
+  "deps_env_info": {},
+  "deps_user_info": {
+    "opencv": {},
+    "zlib": {}
+  },
+  "dependencies": [
+    {
+      "version": "3.4.5",
+      "description": "OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library.",
+      "rootpath": "/home/shalom/.conan/data/opencv/3.4.5/eyeway/stable/package/a81176169367af5c811ec936051e47d6ae6c45c1",
+      "sysroot": "",
+      "include_paths": [
+        "/home/shalom/.conan/data/opencv/3.4.5/eyeway/stable/package/a81176169367af5c811ec936051e47d6ae6c45c1/include"
+      ],
+      "lib_paths": [
+        "/home/shalom/.conan/data/opencv/3.4.5/eyeway/stable/package/a81176169367af5c811ec936051e47d6ae6c45c1/lib"
+      ],
+      "bin_paths": [
+        "/home/shalom/.conan/data/opencv/3.4.5/eyeway/stable/package/a81176169367af5c811ec936051e47d6ae6c45c1/bin"
+      ],
+      "build_paths": [
+        "/home/shalom/.conan/data/opencv/3.4.5/eyeway/stable/package/a81176169367af5c811ec936051e47d6ae6c45c1/"
+      ],
+      "res_paths": [],
+      "libs": [
+        "opencv_stitching",
+        "opencv_superres",
+        "opencv_videostab",
+        "opencv_photo",
+        "opencv_video",
+        "opencv_ml",
+        "opencv_calib3d",
+        "opencv_features2d",
+        "opencv_highgui",
+        "opencv_videoio",
+        "opencv_flann",
+        "opencv_imgcodecs",
+        "opencv_objdetect",
+        "opencv_imgproc",
+        "opencv_core",
+        "pthread",
+        "m",
+        "dl"
+      ],
+      "defines": [],
+      "cflags": [],
+      "cxxflags": [],
+      "sharedlinkflags": [],
+      "exelinkflags": [],
+      "cppflags": [],
+      "name": "opencv"
+    },
+    {
+      "version": "1.2.11",
+      "description": "A Massively Spiffy Yet Delicately Unobtrusive Compression Library (Also Free, Not to Mention Unencumbered by Patents)",
+      "rootpath": "/home/shalom/.conan/data/zlib/1.2.11/eyeway/stable/package/67c966a55c91426283f2d35fd8468ed0740478c0",
+      "sysroot": "",
+      "include_paths": [
+        "/home/shalom/.conan/data/zlib/1.2.11/eyeway/stable/package/67c966a55c91426283f2d35fd8468ed0740478c0/include"
+      ],
+      "lib_paths": [
+        "/home/shalom/.conan/data/zlib/1.2.11/eyeway/stable/package/67c966a55c91426283f2d35fd8468ed0740478c0/lib"
+      ],
+      "bin_paths": [],
+      "build_paths": [
+        "/home/shalom/.conan/data/zlib/1.2.11/eyeway/stable/package/67c966a55c91426283f2d35fd8468ed0740478c0/"
+      ],
+      "res_paths": [],
+      "libs": [
+        "z"
+      ],
+      "defines": [],
+      "cflags": [],
+      "cxxflags": [],
+      "sharedlinkflags": [],
+      "exelinkflags": [],
+      "cppflags": [],
+      "name": "zlib"
+    }
+  ],
+  "settings": {
+    "arch": "armv8",
+    "arch_build": "x86_64",
+    "build_type": "Release",
+    "compiler": "gcc",
+    "compiler.libcxx": "libstdc++11",
+    "compiler.version": "8",
+    "os": "Linux",
+    "os_build": "Linux"
+  },
+  "options": {
+    "opencv": {
+      "contrib": "False",
+      "fPIC": "True",
+      "gtk": "None",
+      "jasper": "False",
+      "jpeg": "False",
+      "openexr": "False",
+      "png": "False",
+      "shared": "False",
+      "tiff": "False",
+      "webp": "False"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+[requires]
+opencv/3.4.5@eyeway/stable
+
+[generators]
+pkg_config
